@@ -1,0 +1,55 @@
+name: mobile_accounting_app
+description: تطبيق محاسبي للبائع المتنقل - فرعين، عدة أنواع لكل فرع، مبيعات، مصاريف، تقارير، طباعة بلوتوث
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # قاعدة البيانات المحلية (تعمل على Android و Desktop بنفس الكود)
+  sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.3.0
+  path: ^1.8.3
+  path_provider: ^2.1.1
+
+  # إدارة الحالة
+  provider: ^6.1.1
+
+  # تنسيق التاريخ والأرقام
+  intl: ^0.18.1
+
+  # الطباعة عبر بلوتوث (إيصالات حرارية ESC/POS)
+  flutter_bluetooth_serial: ^0.4.0
+  esc_pos_utils_plus: ^2.0.4
+  esc_pos_bluetooth: ^0.4.1
+
+  # توليد فواتير PDF (للمشاركة أو الطباعة العادية)
+  pdf: ^3.10.7
+  printing: ^5.11.1
+
+  # أذونات (بلوتوث، تخزين)
+  permission_handler: ^11.1.0
+
+  # رسوم بيانية للتقارير
+  fl_chart: ^0.66.0
+
+  # تصدير تقارير Excel
+  excel: ^4.0.2
+  share_plus: ^7.2.1
+
+  # اختيار ملفات (لاستيراد النسخ الاحتياطية)
+  file_picker: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true

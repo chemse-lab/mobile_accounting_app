@@ -1,0 +1,13 @@
+# أنشئ ملف باسم local.properties (بدون .example) في نفس هذا المجلد (android/)
+# وضع فيه المسارات الحقيقية على جهازك، مثال على ويندوز:
+#
+# sdk.dir=C:\\Users\\YOUR_NAME\\AppData\\Local\\Android\\sdk
+# flutter.sdk=C:\\flutter
+#
+# مثال على Linux/Mac:
+#
+# sdk.dir=/home/YOUR_NAME/Android/Sdk
+# flutter.sdk=/home/YOUR_NAME/flutter
+#
+# هذا الملف يُنشأ تلقائياً عادة عند تشغيل "flutter run" لأول مرة من VS Code أو Android Studio
+# لكن إذا لم يُنشأ تلقائياً، أنشئه يدوياً بالمسارات أعلاه.
